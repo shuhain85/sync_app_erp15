@@ -1,0 +1,57 @@
+{
+  "doctype": "DocType",
+  "name": "Sync Log",
+  "module": "Sync App ERP15",
+  "custom": 1,
+  "fields": [
+    {
+      "fieldname": "sync_direction",
+      "fieldtype": "Select",
+      "label": "Sync Direction",
+      "options": "HQ to Shop\nShop to HQ",
+      "reqd": 1
+    },
+    {
+      "fieldname": "doctype_name",
+      "fieldtype": "Data",
+      "label": "Synced Doctype",
+      "reqd": 1
+    },
+    {
+      "fieldname": "sync_status",
+      "fieldtype": "Select",
+      "label": "Status",
+      "options": "Success\nFailed\nSkipped",
+      "reqd": 1
+    },
+    {
+      "fieldname": "reference_docname",
+      "fieldtype": "Data",
+      "label": "Reference Docname"
+    },
+    {
+      "fieldname": "message",
+      "fieldtype": "Small Text",
+      "label": "Message"
+    },
+    {
+      "fieldname": "timestamp",
+      "fieldtype": "Datetime",
+      "label": "Synced At",
+      "default": "Now"
+    },
+    {
+      "fieldname": "schema_version",
+      "fieldtype": "Data",
+      "label": "Schema Version",
+      "default": "1.0"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1
+    }
+  ]
+}

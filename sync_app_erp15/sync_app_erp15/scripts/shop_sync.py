@@ -1,0 +1,1 @@
+# shop sync logic
