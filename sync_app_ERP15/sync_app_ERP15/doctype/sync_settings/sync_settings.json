@@ -31,6 +31,12 @@
       "fieldtype": "Data",
       "label": "Default Warehouse",
       "reqd": 1
+    },
+    {
+      "fieldname": "discord_webhook_url",
+      "fieldtype": "Data",
+      "label": "Discord Webhook URL",
+      "options": "URL"
     }
   ],
   "permissions": [
