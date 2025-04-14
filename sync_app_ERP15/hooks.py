@@ -1,0 +1,6 @@
+app_name = "sync_app_ERP15"
+app_title = "Sync App ERP15"
+app_publisher = "Your Name"
+app_description = "A sync app for ERPNext v15"
+app_email = "you@example.com"
+app_license = "MIT"
