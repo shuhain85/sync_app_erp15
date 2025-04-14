@@ -1,16 +1,15 @@
 app_name = "sync_app_ERP15"
-app_title = "Sync App"
+app_title = "Sync App ERP15"
 app_publisher = "Your Company"
-app_description = "Shop-HQ ERPNext Sync App"
+app_description = "ERPNext v15 Sync App for Shop-HQ architecture"
 app_email = "dev@example.com"
 app_license = "MIT"
 
-# Scheduler events
 scheduler_events = {
     "cron": {
         "*/15 * * * *": [
-            "sync_app.scripts.pull_shop_data.auto_sync_enabled_shops",
-            "sync_app.scripts.push_master_data.sync_hq_to_shops"
+            "sync_app_ERP15.scripts.hq_sync.sync_hq_to_shops",
+            "sync_app_ERP15.scripts.shop_sync.sync_shop_to_hq"
         ]
     }
 }
