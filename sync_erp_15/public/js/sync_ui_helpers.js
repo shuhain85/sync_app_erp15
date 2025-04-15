@@ -1,1 +1,1 @@
-// Helper functions for Sync UI
+// JS helpers
