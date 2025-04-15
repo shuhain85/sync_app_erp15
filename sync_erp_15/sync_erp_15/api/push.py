@@ -4,7 +4,6 @@ from frappe import _
 @frappe.whitelist(allow_guest=True)
 def receive_push(data):
     try:
-        # Validate token here (if needed)
         doc = frappe.get_doc({
             "doctype": "Sync Queue",
             "payload": data,
