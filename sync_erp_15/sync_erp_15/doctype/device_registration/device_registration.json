@@ -1,0 +1,38 @@
+{
+    "doctype": "DocType",
+    "name": "Device Registration",
+    "module": "Sync Erp 15",
+    "custom": 1,
+    "fields": [
+        {
+            "fieldname": "device_id",
+            "fieldtype": "Data",
+            "label": "Device ID"
+        },
+        {
+            "fieldname": "registered_shop",
+            "fieldtype": "Link",
+            "label": "Shop",
+            "options": "Company"
+        },
+        {
+            "fieldname": "ip_address",
+            "fieldtype": "Data",
+            "label": "IP Address"
+        },
+        {
+            "fieldname": "active",
+            "fieldtype": "Check",
+            "label": "Is Active"
+        }
+    ],
+    "permissions": [
+        {
+            "role": "System Manager",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 1
+        }
+    ]
+}

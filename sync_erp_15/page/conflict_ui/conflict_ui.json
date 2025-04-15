@@ -1,0 +1,9 @@
+{
+    "doctype": "Page",
+    "name": "conflict-ui",
+    "title": "Conflict Resolution",
+    "module": "Sync Erp 15",
+    "icon": "octicon octicon-alert",
+    "restrict_to_domain": "",
+    "standard": 1
+}

@@ -1,0 +1,44 @@
+{
+    "doctype": "DocType",
+    "name": "Sync Job Log",
+    "module": "Sync Erp 15",
+    "custom": 1,
+    "fields": [
+        {
+            "fieldname": "job_type",
+            "fieldtype": "Select",
+            "label": "Job Type",
+            "options": "Push\nPull\nConflict Retry"
+        },
+        {
+            "fieldname": "status",
+            "fieldtype": "Select",
+            "label": "Status",
+            "options": "Pending\nSuccess\nFailed"
+        },
+        {
+            "fieldname": "error_log",
+            "fieldtype": "Small Text",
+            "label": "Error Log"
+        },
+        {
+            "fieldname": "start_time",
+            "fieldtype": "Datetime",
+            "label": "Start Time"
+        },
+        {
+            "fieldname": "end_time",
+            "fieldtype": "Datetime",
+            "label": "End Time"
+        }
+    ],
+    "permissions": [
+        {
+            "role": "System Manager",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 1
+        }
+    ]
+}

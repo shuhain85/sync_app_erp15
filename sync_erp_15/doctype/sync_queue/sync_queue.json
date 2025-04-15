@@ -1,0 +1,39 @@
+{
+    "doctype": "DocType",
+    "name": "Sync Queue",
+    "module": "Sync Erp 15",
+    "custom": 1,
+    "fields": [
+        {
+            "fieldname": "payload",
+            "fieldtype": "Code",
+            "label": "Payload JSON",
+            "options": "JSON"
+        },
+        {
+            "fieldname": "status",
+            "fieldtype": "Select",
+            "label": "Status",
+            "options": "Queued\nProcessing\nCompleted\nFailed"
+        },
+        {
+            "fieldname": "retry_count",
+            "fieldtype": "Int",
+            "label": "Retry Count"
+        },
+        {
+            "fieldname": "next_retry_time",
+            "fieldtype": "Datetime",
+            "label": "Next Retry Time"
+        }
+    ],
+    "permissions": [
+        {
+            "role": "System Manager",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 1
+        }
+    ]
+}

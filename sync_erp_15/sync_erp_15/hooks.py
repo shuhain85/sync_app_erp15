@@ -8,5 +8,5 @@ app_email = "support@example.com"
 app_license = "MIT"
 
 scheduler_events = {
-    "hourly": ["sync_erp_15.sync_erp_15.queue.process_sync_queue"]
+    "hourly": ["sync_erp_15.utils.queue.process_sync_queue"]
 }

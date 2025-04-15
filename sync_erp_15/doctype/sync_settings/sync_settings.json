@@ -1,0 +1,49 @@
+{
+    "doctype": "DocType",
+    "name": "Sync Settings",
+    "module": "Sync Erp 15",
+    "custom": 1,
+    "fields": [
+        {
+            "fieldname": "sync_enabled",
+            "fieldtype": "Check",
+            "label": "Enable Sync"
+        },
+        {
+            "fieldname": "hq_url",
+            "fieldtype": "Data",
+            "label": "HQ Endpoint URL"
+        },
+        {
+            "fieldname": "hq_token",
+            "fieldtype": "Password",
+            "label": "HQ API Token"
+        },
+        {
+            "fieldname": "sync_frequency",
+            "fieldtype": "Select",
+            "label": "Sync Frequency",
+            "options": "Every 5 mins\nEvery 15 mins\nHourly\nDaily"
+        },
+        {
+            "fieldname": "modules_to_sync",
+            "fieldtype": "Table MultiSelect",
+            "label": "Modules to Sync",
+            "options": "Module Def"
+        },
+        {
+            "fieldname": "version_tag",
+            "fieldtype": "Data",
+            "label": "Schema Version"
+        }
+    ],
+    "permissions": [
+        {
+            "role": "System Manager",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 1
+        }
+    ]
+}

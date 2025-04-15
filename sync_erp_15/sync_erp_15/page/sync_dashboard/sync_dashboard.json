@@ -1,0 +1,9 @@
+{
+    "doctype": "Page",
+    "name": "sync-dashboard",
+    "title": "Sync Dashboard",
+    "module": "Sync Erp 15",
+    "icon": "octicon octicon-sync",
+    "restrict_to_domain": "",
+    "standard": 1
+}
