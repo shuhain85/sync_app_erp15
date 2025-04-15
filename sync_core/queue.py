@@ -1,1 +1,0 @@
-# Sync job queue processor

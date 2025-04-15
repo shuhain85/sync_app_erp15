@@ -1,6 +1,0 @@
-* text=auto
-*.py linguist-language=Python
-*.js linguist-language=JavaScript
-*.css linguist-language=CSS
-*.md linguist-language=Markdown
-*.json linguist-language=JSON

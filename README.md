@@ -1,3 +1,2 @@
 # Sync ERP 15
-
-ERPNext HQ-Shop Synchronization App.
+ERPNext HQ-Shop Synchronization App

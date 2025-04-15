@@ -1,5 +1,1 @@
-sync_core
-sync_dashboard
-sync_conflict
-sync_settings
-sync_alert
+sync_erp_15

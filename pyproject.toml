@@ -1,0 +1,10 @@
+[project]
+name = "sync_erp_15"
+version = "0.0.1"
+description = "ERPNext HQ-Shop Synchronization Platform"
+authors = [
+    { name="Your Company", email="support@example.com" }
+]
+license = {text = "MIT"}
+dependencies = []
+requires-python = ">=3.7"
